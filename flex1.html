@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .container{
+            display: flex;
+            width: 100%;
+            height: 234px;
+            /* border: 2px solid red; */
+            margin-bottom: 0px;
+            /* flex-wrap:wrap; */
+            /* align-items: flex-end; */
+            
+            }
+        .containeritem{
+            background-color: aqua;
+            border: 2px solid blue;
+            font-size: 2em;
+            font-weight: bolder;
+            line-height: 1.4;
+            margin:2px;   
+            border-radius: 8px; 
+            padding-left: 6px;
+            }
+        #one{
+            background-color:aqua;
+            width: 33%;
+            height: 225px;
+            
+        }
+        #two{
+            background-color: aqua;
+            width: 33%;
+            height: 225px;
+            }
+        #three{
+            background-color: aqua;
+            width: 33%;
+            height: 225px;
+        }
+        .container2{
+            display: flex;
+            width: 100%;
+            height: 60px;
+            margin: 0px;
+            /* border: 2px solid black; */
+        }
+        .ci2{
+            background-color: aqua;
+            border: 2px solid blue;
+            font-size: 2em;
+            font-weight: bolder;
+            line-height: 1.4;
+            margin: 2px;
+            border-radius: 8px;
+        }
+        #r21{
+            background-color: aqua;
+            width: 25%;
+            height: 50px;
+        }
+        #r22{
+            background-color: aqua;
+            width: 25%;
+            height: 50px;
+        }
+        #r23{
+            background-color: aqua;
+            width: 25%;
+            height: 50px;
+        }
+        #r24{
+            background-color: aqua;
+            width: 25%;
+            height: 50px;
+        }
+        .container3{
+            display: flex;
+            width: 100%;
+            height: 60px;
+            margin: 0px;
+            /* border: 2px solid black; */
+        }
+        .ci3{
+            background-color: aqua;
+            border: 2px solid blue;
+            font-size: 2em;
+            font-weight: bolder;
+            line-height: 1.4;
+            margin: 2px;
+            border-radius: 8px;
+        }
+        #r31{
+            background-color: aqua;
+            width: 20%;
+            height: 50px;
+        }
+        #r32{
+            background-color: aqua;
+            width: 20%;
+            height: 50px;
+        }
+        #r33{
+            background-color: aqua;
+            width: 20%;
+            height: 50px;
+        }
+        #r34{
+            background-color: aqua;
+            width: 20%;
+            height: 50px;
+        }
+        #r35{
+            background-color: aqua;
+            width: 20%;
+            height: 50px;
+        }
+        .cii{
+            display: flex;
+            width: 98%;
+            height: 50px;
+            /* border: 1px solid black; */
+            margin-left:2px;
+            margin-bottom:9px ;
+        
+            
+        }
+        .cin1{
+            border-radius: 8px;
+            border: 2px solid blue;
+            margin: 2px;
+            padding-left: 5px;
+        }
+        #i11{
+            background-color: rgb(173, 255, 255);
+            width: 33%;
+            height: 50px;
+        }
+        #i12{
+            background-color: rgb(173, 255, 255);
+            width: 33%;
+            height: 50px;
+        }
+        #i13{
+            background-color: rgb(173, 255, 255);
+            width: 33%;
+            height: 50px;
+        }
+        .cii2{
+            display: flex;
+            width: 98%;
+            height: 50px;
+            /* border: 1px solid black; */
+            margin-left:2px;
+            margin-bottom: 9px;
+    
+        }
+        .cin2{
+            border-radius: 8px;
+            border: 2px solid blue;
+            margin: 2px;
+            /* margin-top: 9px; */
+        }
+        #i21{
+            background-color: rgb(173, 255, 255);
+            width: 25%;
+            height: 50px;
+        }
+        #i22{
+            background-color: rgb(173, 255, 255);
+            width: 25%;
+            height: 50px;
+        }
+        #i23{
+            background-color: rgb(173, 255, 255);
+            width: 25%;
+            height: 50px;
+        }
+        #i24{
+            background-color: rgb(173, 255, 255);
+            width: 25%;
+            height: 50px;
+        }
+        .cii3{
+            display: flex;
+            width: 98%;
+            height: 50px;
+            /* border: 1px solid black; */
+            margin-left:2px;
+            /* margin-bottom: 6px; */
+    
+        }
+        .cin3{
+            border-radius: 8px;
+            border: 2px solid blue;
+            margin: 2px;
+            /* margin-top: 9px; */
+        }
+        #i31{
+            background-color: rgb(173, 255, 255);
+            width: 20%;
+            height: 50px;
+        }
+        #i32{
+            background-color: rgb(173, 255, 255);
+            width: 20%;
+            height: 50px;
+        }
+        #i33{
+            background-color: rgb(173, 255, 255);
+            width: 20%;
+            height: 50px;
+        }
+        #i34{
+            background-color: rgb(173, 255, 255);
+            width: 20%;
+            height: 50px;
+        }
+        #i35{
+            background-color: rgb(173, 255, 255);
+            width: 20%;
+            height: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="containeritem" id="one">1
+            <div class="cii">
+                <div class="cin1" id="i11">1</div>
+                <div class="cin1" id="i12">2</div>
+                <div class="cin1" id="i13">3</div>
+            </div>
+            <div class="cii2">
+                <div class="cin2" id="i21">1</div>
+                <div class="cin2" id="i22">2</div>
+                <div class="cin2" id="i23">3</div>
+                <div class="cin2" id="i24">4</div>
+            </div>
+            <div class="cii3">
+                <div class="cin3" id="i31">1</div>
+                <div class="cin3" id="i32">2</div>
+                <div class="cin3" id="i33">3</div>
+                <div class="cin3" id="i34">4</div>
+                <div class="cin3" id="i35">5</div>
+            </div>
+        </div>
+        <div class="containeritem" id="two">2</div>
+        <div class="containeritem" id="three">3</div>        
+    </div>
+    <div class="container2">
+        <div class="ci2" id="r21">1</div>
+        <div class="ci2" id="r22">2</div>
+        <div class="ci2" id="r23">3</div>
+        <div class="ci2" id="r24">4</div>
+    </div>
+    <div class="container3">
+        <div class="ci3" id="r31">1</div>
+        <div class="ci3" id="r32">2</div>
+        <div class="ci3" id="r33">3</div>
+        <div class="ci3" id="r34">4</div>
+        <div class="ci3" id="r35">5</div>
+    </div>
+</body>
+</html>
