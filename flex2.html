@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flex2</title>
+        <style>
+            .container {
+                display: flex;
+                width: 100%;
+                height: 234px;
+                /* border: 2px solid red; */
+                margin-bottom: 0px;
+                justify-content: space-evenly;
+                /* flex-wrap:wrap; */
+                /* align-items: flex-end; */
+            }
+            .containeritem {
+                background-color: whitesmoke;
+                border: 2px solid black;
+                /* font-size: 2em; */
+                font-weight: bold;
+                margin: -70px;
+                /* border-radius: 8px;  */
+                width: 325px;
+                
+                /* padding-left: 6px; */
+            }
+            #one {
+                margin-top: 50px;
+                height: 600px;
+                background-image: url(Keukenhof-Gardens-Lisse-Netherlands.jpg);
+                background-size: 100% 45%;
+                background-repeat: no-repeat;
+            }
+            .head1 {
+                padding-top: 9em;
+                padding-left: 35px;
+            }
+            .p1 {
+                padding-left: 35px;
+                font-size: 20px;
+                text-align: start;
+                color: rgb(31, 25, 25);
+            }
+            .button1 {
+                margin-left: 35px;
+                width: 225px;
+                height: 60px;
+                font-size: large;
+                font-weight: bold;
+                background-color: blanchedalmond;
+                cursor: pointer;
+            }
+            #two {
+                margin-top: 25px;
+                height: 650px;
+                background-image: url(download\ \(1\).jpg);
+                background-size: 100% 40%;
+                background-repeat: no-repeat;
+            }
+            #three {
+                margin-top:85px;
+                height: 555px;
+                background-image: url(download\ \(2\).jpg);
+                background-size: 100% 37%;
+                background-repeat: no-repeat;
+            }
+            #three>#setting{
+                padding-top:245px
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="containeritem" id="one">
+                <h1 class="head1">Some random Garden</h1>
+                <p class="p1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat itaque, voluptatem officiis quod sequi accusamus.
+                </p>
+                <button class="button1" type="button">About us</button>
+            </div>
+            <div class="containeritem" id="two">
+                <h1 class="head1">Some random park</h1>
+                <p class="p1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sequi facere delectus distinctio quae obcaecati
+                    necessitatibus. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Aperiam ab rem consectetur autem rerum
+                    veritatis.
+                </p>
+                <button class="button1" type="button">About us</button>
+            </div>
+            <div class="containeritem" id="three">
+                <h1 class="head1" id="setting" >Some random area</h1>
+                <p class="p1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat itaque, voluptatem officiis quod sequi accusamus.
+                    Quaerat itaque, voluptatem officiis quod sequi accusamus
+                </p>
+                <button class="button1" type="button">About us</button>
+            </div>
+        </div>
+    </body>
+</html>
