@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2,20% 80%);
+            grid-gap:10px;
+            height: 97vh;
+            text-align: center;
+            font-weight: bolder;
+            font-size: larger;
+            line-height: 4;
+            }
+        .item{
+            display: grid;
+            grid-gap:10px
+        }
+        .nav{
+            background-color: rgb(172, 160, 160);
+        }
+        .header,.footer{
+            background-color: rgb(172, 160, 160);
+            height: 15vh;
+        }
+        .items{
+            display: grid;
+            grid-gap:10px;
+            grid-template-columns: 70% 30%;
+            height: 70vh;
+        }
+        .article,.ads{
+            background-color: rgb(172, 160, 160);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item nav">Nav</div>
+        <div class="item">
+                <div class="header">Header</div>
+                <div class="items">
+                    <div class="article">Article</div>
+                    <div class="ads">Ads</div>
+                </div>
+                <div class="footer">Footer</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
